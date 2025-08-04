@@ -38,7 +38,6 @@ while True:
         print("❌ Failed to read from webcam")
         continue
 
-    # Optional: Resize for better speed
     # frame = cv2.resize(frame, (640, 480))
 
     # 🔍 Detection
@@ -81,3 +80,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
